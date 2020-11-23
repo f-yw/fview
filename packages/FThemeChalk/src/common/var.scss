@@ -1,0 +1,143 @@
+/* FView Chalk Variables */
+
+//Color
+$f-color-primary:#277DA1 !default;
+$f-color-succees:#90BE6D !default;
+$f-color-warning:#F9C74F !default;
+$f-color-danger:#F94144 !default;
+$f-color-info:#B7B7A4 !default;
+
+//Color | Background Color
+$f-color-white:#FFFFFF !default;
+$f-color-black:#000000 !default;
+
+//Color
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; /* 8cc5ff */
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /* a0cfff */
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+
+//Font Color
+$f-text-color-primary: #343A40 !default;
+$f-text-color-secondary: #606266 !default;
+$f-text-color-gray: #909399 !default;
+$f-text-color-placeholder: #C0C4CC !default;
+
+//Border Color
+$f-border-color-base: #DEE2E6 !default;
+$f-border-color-light: #E9ECEF !default;
+$f-border-color-extra-light: #F8F9FA !default;
+
+//Background Color
+$f-background-color-base: #F4F4FA !default;
+
+/* ------------Border--------------- */
+$f-border-width-base: 1px !default;
+$f-border-style-base: solid !default;
+$f-border-color-hover: $f-text-color-placeholder !default;
+$f-border-base: $f-border-width-base $f-border-style-base $f-border-color-base !default;
+// borderRadius
+$f-border-radius-base: 4px !default;
+$f-border-radius-small: 2px !default;
+$f-border-radius-circle: 100% !default;
+$f-border-radius-zero: 0 !default;
+
+/* ------------BoxShadow-------------- */
+$f-box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04) !default;
+$f-box-shadow-dark: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .12) !default;
+$f-box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !default;
+
+/* ------------Font-------------- */
+$--font-path: 'fonts' !default;
+$--font-display: 'auto' !default;
+
+//Font Size
+$f-font-size-extra-large: 20px !default;
+$f-font-size-large: 18px !default;
+$f-font-size-medium: 16px !default;
+$f-font-size-base: 14px !default;
+$f-font-size-small: 13px !default;
+$f-font-size-extra-small: 12px !default;
+
+//Font Weight
+$f-font-weight-primary: 500 !default;
+$f-font-weight-secondary: 100 !default;
+
+//Line Height
+$--font-line-height-secondary: 16px !default;
+$--font-color-disabled-base: #bbb !default;
+
+/* ------------Size-------------- */
+$f-size-base: 14px !default;
+
+/* ------------ZIndex-------------- */
+$f-index-normal: 1 !default;
+$f-index-popper: 999 !default;
+
+/* ------------Button-------------- */
+
+//font-weight
+$f-button-font-weight: $f-font-weight-primary !default;
+
+// default
+$f-button-font-size: $f-font-size-base !default;
+$f-button-border-radius: $f-border-radius-base !default;
+$f-button-padding-vertical: 12px !default;
+$f-button-padding-horizontal: 20px !default;
+
+// medium
+$f-button-medium-font-size: $f-font-size-base !default;
+$f-button-medium-border-radius: $f-border-radius-base !default;
+$f-button-medium-padding-vertical: 10px !default;
+$f-button-medium-padding-horizontal: 20px !default;
+
+// small
+$f-button-small-font-size: $f-font-size-extra-small !default;
+$f-button-small-border-radius: #{$f-border-radius-base - 1} !default;
+$f-button-small-padding-vertical: 9px !default;
+$f-button-small-padding-horizontal: 15px !default;
+
+// mini
+$f-button-mini-font-size: $f-font-size-extra-small !default;
+$f-button-mini-border-radius: #{$f-border-radius-base - 1} !default;
+$f-button-mini-padding-vertical: 7px !default;
+$f-button-mini-padding-horizontal: 15px !default;
+
+// Color-default
+$f-button-default-font-color: $f-text-color-secondary !default;
+$f-button-default-background-color: $f-color-white !default;
+$f-button-default-border-color: $f-border-color-base !default;
+
+// Color-disabled
+$f-button-disabled-font-color: $f-text-color-placeholder !default;
+$f-button-disabled-background-color: $f-color-white !default;
+$f-button-disabled-border-color: $f-border-color-lighter !default;
+
+//primary
+$f-button-primary-border-color: $f-color-primary !default;
+$f-button-primary-font-color: $f-color-white !default;
+$f-button-primary-background-color: $f-color-primary !default;
+//success
+$f-button-success-border-color: $f-color-success !default;
+$f-button-success-font-color: $f-color-white !default;
+$f-button-success-background-color: $f-color-success !default;
+//warning
+$f-button-warning-border-color: $f-color-warning !default;
+$f-button-warning-font-color: $f-color-white !default;
+$f-button-warning-background-color: $f-color-warning !default;
+//danger
+$f-button-danger-border-color: $f-color-danger !default;
+$f-button-danger-font-color: $f-color-white !default;
+$f-button-danger-background-color: $f-color-danger !default;
+//info
+$f-button-info-border-color: $f-color-info !default;
+$f-button-info-font-color: $f-color-white !default;
+$f-button-info-background-color: $f-color-info !default;
+
+$f-button-hover-tint-percent: 20% !default;
+$f-button-active-shade-percent: 10% !default;
