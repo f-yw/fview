@@ -1,7 +1,7 @@
 <!-- <p align="center">
     <img alt="logo" src="https://uviewui.com/common/logo.png" width="120" height="120" style="margin-bottom: 10px;">
 </p> -->
-<h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">uView</h3>
+<h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">fView</h3>
 <h3 align="center">一套基于 Vue.js 的UI组件库(开发中)</h3>
 
 [![star](https://gitee.com/xuqu/fview/badge/star.svg?theme=gvp)](https://gitee.com/xuqu/fview/stargazers)
