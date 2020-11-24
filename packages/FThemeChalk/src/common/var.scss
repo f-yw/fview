@@ -1,10 +1,10 @@
 /* FView Chalk Variables */
 
 //Color
-$f-color-primary:#277DA1 !default;
-$f-color-succees:#90BE6D !default;
-$f-color-warning:#F9C74F !default;
-$f-color-danger:#F94144 !default;
+$f-color-primary:#337ab7 !default;
+$f-color-success:#5cb85c !default;
+$f-color-warning:#f0ad4e !default;
+$f-color-danger:#d9534f !default;
 $f-color-info:#B7B7A4 !default;
 
 //Color | Background Color
@@ -12,15 +12,15 @@ $f-color-white:#FFFFFF !default;
 $f-color-black:#000000 !default;
 
 //Color
-$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
-$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
-$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
-$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; /* 8cc5ff */
-$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /* a0cfff */
-$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
-$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
-$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
-$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+$--color-primary-light-1: mix($f-color-white, $f-color-primary, 10%) !default; /* 53a8ff */
+$f-color-primary-light-2: mix($f-color-white, $f-color-primary, 20%) !default; /* 66b1ff */
+$f-color-primary-light-3: mix($f-color-white, $f-color-primary, 30%) !default; /* 79bbff */
+$f-color-primary-light-4: mix($f-color-white, $f-color-primary, 40%) !default; /* 8cc5ff */
+$f-color-primary-light-5: mix($f-color-white, $f-color-primary, 50%) !default; /* a0cfff */
+$f-color-primary-light-6: mix($f-color-white, $f-color-primary, 60%) !default; /* b3d8ff */
+$f-color-primary-light-7: mix($f-color-white, $f-color-primary, 70%) !default; /* c6e2ff */
+$f-color-primary-light-8: mix($f-color-white, $f-color-primary, 80%) !default; /* d9ecff */
+$f-color-primary-light-9: mix($f-color-white, $f-color-primary, 90%) !default; /* ecf5ff */
 
 //Font Color
 $f-text-color-primary: #343A40 !default;
@@ -116,7 +116,7 @@ $f-button-default-border-color: $f-border-color-base !default;
 // Color-disabled
 $f-button-disabled-font-color: $f-text-color-placeholder !default;
 $f-button-disabled-background-color: $f-color-white !default;
-$f-button-disabled-border-color: $f-border-color-lighter !default;
+$f-button-disabled-border-color: $f-border-color-light !default;
 
 //primary
 $f-button-primary-border-color: $f-color-primary !default;

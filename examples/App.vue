@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    fview-ui
-    <f-button>fview-ui</f-button>
+    <router-view />
   </div>
 </template>
 

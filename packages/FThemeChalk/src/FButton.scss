@@ -44,7 +44,7 @@
     border: 0;
   }
 
-  & [class*="el-icon-"] {
+  & [class*="f-icon-"] {
     & + span {
       margin-left: 5px;
     }
@@ -82,7 +82,7 @@
       border-color: $f-button-disabled-border-color;
     }
 
-    &.el-button--text {
+    &.f-button--text {
       background-color: transparent;
     }
 
@@ -119,56 +119,56 @@
   }
   @include when(circle) {
     border-radius: 50%;
-    padding: $--button-padding-vertical;
+    padding: $f-button-padding-vertical;
   }
   @include m(primary) {
-    @include button-variant($--button-primary-font-color, $--button-primary-background-color, $--button-primary-border-color);
+    @include button-variant($f-button-primary-font-color, $f-button-primary-background-color, $f-button-primary-border-color);
   }
   @include m(success) {
-    @include button-variant($--button-success-font-color, $--button-success-background-color, $--button-success-border-color);
+    @include button-variant($f-button-success-font-color, $f-button-success-background-color, $f-button-success-border-color);
   }
   @include m(warning) {
-    @include button-variant($--button-warning-font-color, $--button-warning-background-color, $--button-warning-border-color);
+    @include button-variant($f-button-warning-font-color, $f-button-warning-background-color, $f-button-warning-border-color);
   }
   @include m(danger) {
-    @include button-variant($--button-danger-font-color, $--button-danger-background-color, $--button-danger-border-color);
+    @include button-variant($f-button-danger-font-color, $f-button-danger-background-color, $f-button-danger-border-color);
   }
   @include m(info) {
-    @include button-variant($--button-info-font-color, $--button-info-background-color, $--button-info-border-color);
+    @include button-variant($f-button-info-font-color, $f-button-info-background-color, $f-button-info-border-color);
   }
   @include m(medium) {
-    @include button-size($--button-medium-padding-vertical, $--button-medium-padding-horizontal, $--button-medium-font-size, $--button-medium-border-radius);
+    @include button-size($f-button-medium-padding-vertical, $f-button-medium-padding-horizontal, $f-button-medium-font-size, $f-button-medium-border-radius);
     @include when(circle) {
-      padding: $--button-medium-padding-vertical;
+      padding: $f-button-medium-padding-vertical;
     }
   }
   @include m(small) {
-    @include button-size($--button-small-padding-vertical, $--button-small-padding-horizontal, $--button-small-font-size, $--button-small-border-radius);
+    @include button-size($f-button-small-padding-vertical, $f-button-small-padding-horizontal, $f-button-small-font-size, $f-button-small-border-radius);
     @include when(circle) {
-      padding: $--button-small-padding-vertical;
+      padding: $f-button-small-padding-vertical;
     }
   }
   @include m(mini) {
-    @include button-size($--button-mini-padding-vertical, $--button-mini-padding-horizontal, $--button-mini-font-size, $--button-mini-border-radius);
+    @include button-size($f-button-mini-padding-vertical, $f-button-mini-padding-horizontal, $f-button-mini-font-size, $f-button-mini-border-radius);
     @include when(circle) {
-      padding: $--button-mini-padding-vertical;
+      padding: $f-button-mini-padding-vertical;
     }
   }
   @include m(text) {
     border-color: transparent;
-    color: $--color-primary;
+    color: $f-color-primary;
     background: transparent;
     padding-left: 0;
     padding-right: 0;
 
     &:hover,
     &:focus {
-      color: mix($--color-white, $--color-primary, $--button-hover-tint-percent);
+      color: mix($f-color-white, $f-color-primary, $f-button-hover-tint-percent);
       border-color: transparent;
       background-color: transparent;
     }
     &:active {
-      color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
+      color: mix($f-color-black, $f-color-primary, $f-button-active-shade-percent);
       border-color: transparent;
       background-color: transparent;
     }
@@ -186,10 +186,10 @@
   display: inline-block;
   vertical-align: middle;
 
-  & > .el-button {
+  & > .f-button {
     float: left;
     position: relative;
-    & + .el-button {
+    & + .f-button {
       margin-left: 0;
     }
     &.is-disabled {
@@ -204,10 +204,10 @@
       border-bottom-left-radius: 0;
     }
     &:first-child:last-child {
-      border-top-right-radius: $--button-border-radius;
-      border-bottom-right-radius: $--button-border-radius;
-      border-top-left-radius: $--button-border-radius;
-      border-bottom-left-radius: $--button-border-radius;
+      border-top-right-radius: $f-button-border-radius;
+      border-bottom-right-radius: $f-button-border-radius;
+      border-top-left-radius: $f-button-border-radius;
+      border-bottom-left-radius: $f-button-border-radius;
 
       &.is-round {
         border-radius: 20px;
@@ -235,25 +235,25 @@
     }
   }
   
-  & > .el-dropdown {
-    & > .el-button {
+  & > .f-dropdown {
+    & > .f-button {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
-      border-left-color: rgba($--color-white, 0.5);
+      border-left-color: rgba($f-color-white, 0.5);
     }
   }
 
   @each $type in (primary, success, warning, danger, info) {
-    .el-button--#{$type} {
+    .f-buttonf-#{$type} {
       &:first-child {
-        border-right-color: rgba($--color-white, 0.5);
+        border-right-color: rgba($f-color-white, 0.5);
       }
       &:last-child {
-        border-left-color: rgba($--color-white, 0.5);
+        border-left-color: rgba($f-color-white, 0.5);
       }
       &:not(:first-child):not(:last-child) {
-        border-left-color: rgba($--color-white, 0.5);
-        border-right-color: rgba($--color-white, 0.5);
+        border-left-color: rgba($f-color-white, 0.5);
+        border-right-color: rgba($f-color-white, 0.5);
       }
     }
   }
